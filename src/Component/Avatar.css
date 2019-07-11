@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Gugi');
+
+.avatarstyle img{
+    width: 200px; height:200px;
+}
+.bg-red { background-color: var(--red); }
+
+.ba { border-style: solid; border-width: 1px; }
+
+.grow {
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+  }
+  
+  .grow:hover,
+  .grow:focus {
+    transform: scale(1.05);
+  }
+
+  .mainpage { width: 90%; height:100vh; margin: auto; font-family: 'Gugi', cursive;}
+  .mainpage h1 { margin: 0; padding: 20px 0; text-align: center; }
